@@ -23,6 +23,17 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# 環境変数は除外
+.env
+
+# mediaディレクトリに.gitkeepというファイルを作成し、それ以外は除外
+/media/*
+!/media/.gitkeep
+
+# staticディレクトリに.gitkeepというファイルを作成し、それ以外は除外
+/static/*
+!/static/.gitkeep
+
 # C extensions
 *.so
 
